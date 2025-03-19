@@ -1,3 +1,14 @@
+/*
+ * What Does .obs(Observable) Do?
+    It makes a variable reactive.
+    When the value of an observable variable changes, all widgets that depend on 
+    it are automatically rebuilt.
+    his eliminates the need for manually calling setState or using complex state 
+    management logic.
+
+ * 
+ */
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
